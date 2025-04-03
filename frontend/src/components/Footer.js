@@ -5,7 +5,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
@@ -129,7 +128,7 @@ function Footer() {
             opacity: 0.7
           }}
         >
-          © {new Date().getFullYear()} CREATIFI. All rights reserved.
+          {new Date().getFullYear()} CREATIFI. All rights reserved.
         </Typography>
       </Container>
     </Box>

@@ -17,8 +17,6 @@ const FeatureCard = styled(Paper)(({ theme }) => ({
   backgroundColor: '#ffffff',
   borderRadius: theme.spacing(3),
   transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
-  position: 'relative',
-  overflow: 'hidden',
   '&::before': {
     content: '""',
     position: 'absolute',
@@ -52,9 +50,7 @@ const FeatureCard = styled(Paper)(({ theme }) => ({
   },
   width: '100%',
   maxWidth: '800px',
-  margin: '0 auto',
-  overflow: 'hidden',
-  position: 'relative'
+  margin: '0 auto'
 }));
 
 const FeatureIcon = styled(IconButton)(({ theme }) => ({
@@ -121,7 +117,6 @@ function Home() {
               alignItems: 'center', 
               p: 5,
               background: 'linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%)',
-              position: 'relative',
               zIndex: 2
             }}>
               <FeatureIcon 
@@ -177,7 +172,6 @@ function Home() {
               alignItems: 'center', 
               p: 5,
               background: 'linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%)',
-              position: 'relative',
               zIndex: 2
             }}>
               <FeatureIcon 
@@ -233,7 +227,6 @@ function Home() {
               alignItems: 'center', 
               p: 5,
               background: 'linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%)',
-              position: 'relative',
               zIndex: 2
             }}>
               <FeatureIcon 
