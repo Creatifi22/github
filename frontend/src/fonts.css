@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'VVDS Fifties Exp Bold Italic';
+  src: url('./fonts/VVDSFiftiesExpBoldItalic.woff2') format('woff2'),
+       url('./fonts/VVDSFiftiesExpBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
